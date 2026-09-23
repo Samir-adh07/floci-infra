@@ -11,7 +11,8 @@ provider "aws" {
   region = "us-east-1"
 
   endpoints {
-    s3  = "http://localhost.floci.io:4566"
-    sqs = "http://localhost.floci.io:4566"
+    s3     = "http://localhost.floci.io:4566"
+    sqs    = "http://localhost.floci.io:4566"
+    lambda = "http://localhost.floci.io:4566"
   }
 }
